@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orminge Café</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f9f9f9;
+    color:#333;
+}
+
+header{
+    background:#3a2d1f;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 24px;
+    background:#d4a373;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#3a2d1f;
+}
+
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact{
+    background:#fff;
+    border-radius:10px;
+    padding:30px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer{
+    background:#3a2d1f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Orminge Café</h1>
+    <p>Färska bakverk, god lunch och härlig fika i hjärtat av Orminge.</p>
+    <a href="tel:0700153135" class="btn">Ring oss</a>
+</header>
+
+<section>
+    <h2>Om oss</h2>
+    <p>
+        Välkommen till Orminge Café! Här kan du njuta av nybryggt kaffe,
+        färska bakverk, luncher, sallader, wraps och andra lättare rätter
+        i en trevlig och avslappnad miljö.
+    </p>
+</section>
+
+<section>
+    <h2>Populära rätter</h2>
+
+    <div class="menu-grid">
+
+        <div class="card">
+            <h3>Sallader</h3>
+            <p>Caesarsallad, Grekisk sallad, Räksallad och Tonfisksallad.</p>
+        </div>
+
+        <div class="card">
+            <h3>Wraps</h3>
+            <p>Cesarwrap, Skagenwrap, Tonfiskwrap och Kebabwrap.</p>
+        </div>
+
+        <div class="card">
+            <h3>Bakad Potatis</h3>
+            <p>Serveras med olika röror och färska grönsaker.</p>
+        </div>
+
+        <div class="card">
+            <h3>Fika</h3>
+            <p>Kaffe, te, kakor och andra goda bakverk.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Öppettider</h2>
+
+    <div class="contact">
+        <p><strong>Måndag–Fredag:</strong> 08:00–19:00</p>
+        <p><strong>Lördag:</strong> 10:00–16:00</p>
+        <p><strong>Söndag:</strong> 11:00–16:00</p>
+    </div>
+</section>
+
+<section>
+    <h2>Kontakt</h2>
+
+    <div class="contact">
+        <p><strong>Adress:</strong> Orminge Centrum, 132 54 Saltsjö-Boo</p>
+        <p><strong>Telefon:</strong> 070-015 31 35</p>
+        <p><strong>Facebook:</strong> Cafe Orminge</p>
+        <p><strong>Instagram:</strong> @cafe_orminge</p>
+    </div>
+</section>
+
+<footer>
+    © 2025 Orminge Café | Alla rättigheter förbehållna
+</footer>
+
+</body>
+</html>
